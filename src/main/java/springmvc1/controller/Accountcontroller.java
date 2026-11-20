@@ -12,7 +12,7 @@ import springmvc1.entity.Accountdetails;
 @Controller
 public class Accountcontroller {
 
-    // Display Form
+    
     @GetMapping("/getform")
     @ResponseBody
     public String getForm() {
@@ -60,7 +60,7 @@ public class Accountcontroller {
                 + "</form>";
     }
 
-    // Receive Form Data
+    
     @PostMapping("/details")
     @ResponseBody
     public String getDetails(@ModelAttribute Accountdetails account) {

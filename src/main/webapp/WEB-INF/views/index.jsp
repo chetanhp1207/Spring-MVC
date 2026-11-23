@@ -10,7 +10,7 @@
 <style>
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f4f6f9;
+	background-color: rgb(192, 192, 192);
 	margin: 0;
 	padding: 40px;
 }
@@ -24,7 +24,7 @@ h2 {
 table {
 	width: 100%;
 	border-collapse: collapse;
-	background-color: white;
+	background-color: aqua;
 	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	overflow: hidden;
@@ -42,11 +42,11 @@ td {
 	padding: 13px;
 	text-align: center;
 	color: #333;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid rgb(170, 177, 196);
 }
 
 tr:nth-child(even) {
-	background-color: #f2f6fa;
+	background-color: rgb(245, 247, 248);
 }
 
 tr:hover {
